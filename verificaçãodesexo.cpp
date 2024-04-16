@@ -3,22 +3,22 @@ using namespace std;
 
 int main(){
 	
-	char sexo;
+char sexo;
 	 
-	cout<<"digite a primeira letra \n";
-	cin>>sexo;
-	sexo = toupper(sexo);	
+cout<<"digite a primeira letra \n";
+cin>>sexo;
+sexo = toupper(sexo);	
 	
-	if( sexo == 'M'  ){
-		cout<<"sexo masculino"<<endl;
+if( sexo == 'M'  ){
+cout<<"sexo masculino"<<endl;
 		
- 	}
-	else if ( sexo == 'F' ){
-		cout<<"sexo feminino"<<endl;
-	}
-	else{
-		cout<<"sexo invalido"<<endl;
-	}
+ }
+else if ( sexo == 'F' ){
+cout<<"sexo feminino"<<endl;
+}
+else{
+cout<<"sexo invalido"<<endl;
+}
 				 				 	
 system("pause");
 return 0;
